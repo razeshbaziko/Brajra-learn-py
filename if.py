@@ -23,3 +23,10 @@ if grade > 40:
         print("Second Division")
 else:
     print("Fail")'''
+
+#Homework
+principal= int(input("Enter a principal: "))
+rate= int(input("Enter a rate: "))
+time= int(input("Enter a time: "))
+a= principal*time*rate/100
+print(a)
