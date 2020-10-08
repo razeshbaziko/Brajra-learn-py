@@ -12,7 +12,7 @@ else:
 #print(result)
 
 #nested loop
-grade =int(input("Enter your marks: "))
+'''grade =int(input("Enter your marks: "))
 if grade > 40:
     if grade >= 60:
         if grade < 80:
@@ -22,4 +22,4 @@ if grade > 40:
     else:
         print("Second Division")
 else:
-    print("Fail")S
+    print("Fail")'''
