@@ -25,8 +25,28 @@ else:
     print("Fail")'''
 
 #Homework
-principal= int(input("Enter a principal: "))
+'''principal= int(input("Enter a principal: "))
 rate= int(input("Enter a rate: "))
 time= int(input("Enter a time: "))
 a= principal*time*rate/100
-print(a
+print(a)'''
+
+
+#calculation
+x= int(input("Enter a Number:  "))
+y= int(input("Enter a Number:  "))
+print("Enter a character to perform")
+ch= input("Enter a character to perform a,b,c,d:  ")
+result= 0
+if ch=='a':
+    result= x+y;
+    print(result)
+elif ch=='b':
+    result=x-y;
+    print(result)
+elif ch=='c':
+    result=x*y;
+    print(result)
+else:
+    result=x/y;
+    print(result)
