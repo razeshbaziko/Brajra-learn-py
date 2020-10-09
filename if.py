@@ -24,27 +24,38 @@ if grade > 40:
 else:
     print("Fail")'''
 
-#Homework
-'''principal= int(input("Enter a principal: "))
+'''#Homework
+principal= int(input("Enter a principal: "))
 rate= int(input("Enter a rate: "))
 time= int(input("Enter a time: "))
 SI= principal*time*rate/100
 print("SI", SI)'''
 
 
-#calculation
+'''#calculation
 x= int(input("Enter a Number:  "))
 y= int(input("Enter a Number:  "))
 ch= input("Enter a character to perform a,b,c,d:  ")
 if ch=='a':
-    a= x+y;
+    a= x+y
     print(a)
 elif ch=='b':
-    b=x-y;
+    b=x-y
     print(b)
 elif ch=='c':
-    c=x*y;
+    c=x*y
     print(c)
 else:
-    d=x/y;
-    print(d)
+    d=x/y
+    print(d)'''
+
+
+#String
+name="Razesh Baziko"
+a=name.split()
+print(a)
+name="          Razesh Baziko     "
+print(name.strip())
+print(name.upper())
+print(name.replace("R","r"))
+
