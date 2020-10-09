@@ -28,25 +28,23 @@ else:
 '''principal= int(input("Enter a principal: "))
 rate= int(input("Enter a rate: "))
 time= int(input("Enter a time: "))
-a= principal*time*rate/100
-print(a)'''
+SI= principal*time*rate/100
+print("SI", SI)'''
 
 
 #calculation
 x= int(input("Enter a Number:  "))
 y= int(input("Enter a Number:  "))
-print("Enter a character to perform")
 ch= input("Enter a character to perform a,b,c,d:  ")
-result= 0
 if ch=='a':
-    result= x+y;
-    print(result)
+    q= x+y;
+    print(q)
 elif ch=='b':
-    result=x-y;
-    print(result)
+    q=x-y;
+    print(q)
 elif ch=='c':
-    result=x*y;
-    print(result)
+    q=x*y;
+    print(q)
 else:
-    result=x/y;
-    print(result)
+    q=x/y;
+    print(q)
