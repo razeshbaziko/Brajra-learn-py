@@ -37,14 +37,14 @@ x= int(input("Enter a Number:  "))
 y= int(input("Enter a Number:  "))
 ch= input("Enter a character to perform a,b,c,d:  ")
 if ch=='a':
-    q= x+y;
-    print(q)
+    a= x+y;
+    print(a)
 elif ch=='b':
-    q=x-y;
-    print(q)
+    b=x-y;
+    print(b)
 elif ch=='c':
-    q=x*y;
-    print(q)
+    c=x*y;
+    print(c)
 else:
-    q=x/y;
-    print(q)
+    d=x/y;
+    print(d)
