@@ -61,7 +61,12 @@ print(name.replace("R","r"))'''
 
 
 #split()
-name=input("Enter your full name: ")
+'''name=input("Enter your full name: ")
 x=name.split()
-print(x)
+print(x)'''
 
+
+#.indigit string
+text=input("Enter a text:  ")
+x=text.isdigit()
+print(x,text)
