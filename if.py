@@ -51,11 +51,17 @@ else:
 
 
 #String
-name="Razesh Baziko"
+'''name="Razesh Baziko"
 a=name.split()
 print(a)
 name="          Razesh Baziko     "
 print(name.strip())
 print(name.upper())
-print(name.replace("R","r"))
+print(name.replace("R","r"))'''
+
+
+#split()
+name=input("Enter your full name: ")
+x=name.split()
+print(x)
 
