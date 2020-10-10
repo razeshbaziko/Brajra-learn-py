@@ -67,6 +67,12 @@ print(x)'''
 
 
 #.indigit string
-text=input("Enter a text:  ")
+'''text=input("Enter a text:  ")
 x=text.isdigit()
-print(x,text)
+print(x,text)'''
+
+
+#capitalize
+name=input("Enter a full name:  ")
+x=name.title()
+print(x)
