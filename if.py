@@ -79,3 +79,8 @@ print(x) '''
 
 #vowel character
 name=input("Enter a name: ")
+Vowel="aeiou"
+for word in name:
+    if word in Vowel:
+        print("Vowel :",word)
+    
