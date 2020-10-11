@@ -11,3 +11,5 @@ print(text)
 for x in text:
     print(x)
 print(len(text))
+text.pop()
+print(text)
