@@ -1,5 +1,5 @@
 #list
-text=["ram","sita","shyam","hari"]
+'''text=["ram","sita","shyam","hari"]
 print(text)
 print(text[2])
 print(text[-3])
@@ -12,4 +12,7 @@ for x in text:
     print(x)
 print(len(text))
 text.pop()
-print(text)
+print(text)'''
+
+year=[*range(2000, 2030)]
+print(year)
