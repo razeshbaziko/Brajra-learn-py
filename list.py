@@ -14,5 +14,8 @@ print(len(text))
 text.pop()
 print(text)'''
 
-year=[*range(2000, 2030)]
-print(year)
+years = list(range(2000, 2030))
+for year in years:
+    if year % 4 == 0:
+        print(year)
+
